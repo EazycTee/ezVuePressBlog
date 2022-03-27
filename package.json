@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.7"
+  }
+}

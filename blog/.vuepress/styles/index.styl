@@ -1,0 +1,79 @@
+#app h1 {
+  font-size: 1.85rem;
+}
+#app #header {
+  width 100%;
+  height: auto;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+#app .mobile-header-bar {
+  width 100%;
+}
+#app #mobile-header .mobile-header-title {
+  padding: .8rem 1rem;
+}
+#app .header-wrapper a, #app .header-wrapper p, #app .header-wrapper div {
+  font-size: inherit;
+}
+
+// header avatar start:
+// node_modules/@vuepress/theme-blog/components/MobileHeader.vue
+// <NavLink link="/" class="mobile-home-link">
+//   <img
+//     v-if="$site.themeConfig.logo"
+//     class="logo"
+//     :src="$withBase($site.themeConfig.logo)"
+//     :alt="$siteTitle"
+//   >
+//   <span>{{ $site.title }}</span> 
+// </NavLink>
+#app .header-wrapper .title a, #app #mobile-header a {  
+  display: flex;
+  align-items: center;
+}
+#app .header-wrapper .title a>img, #app #mobile-header a>img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 .8rem 0 0;
+}
+#app .header-wrapper .title a>span, #app #mobile-header a>span {
+  display: block;
+}
+// header avatar end.
+
+#app .ui-post-title {
+  font-family: PT Serif, Serif; 
+}
+#app .ui-post-summary, #app .ui-post-author {
+  display none;
+}
+#app .ui-post-title {
+  font-size: 1.5rem;
+}
+#app .ui-post footer {
+  margin-top: .5rem;
+}
+#app .vuepress-blog-theme-content {
+  padding: 2.5rem;
+}
+@media (max-width: $MQMobile) {
+  #app .vuepress-blog-theme-content {
+    padding: 0.65rem;
+  }
+  #app .ui-post-title {
+    font-size: 1.2rem;
+  }
+  #app .ui-post {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  #app .footer .footer-right-wrap .copyright .copyright-item {
+    line-height: 1.5;
+    border-right: none;
+    text-align: center;
+  }
+}
