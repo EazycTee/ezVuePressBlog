@@ -60,6 +60,12 @@
 #app .vuepress-blog-theme-content {
   padding: 2.5rem;
 }
+#app .footer .footer-left-wrap .contact .contact-item:only-child {
+  margin-right: 0;
+}
+#app .footer .footer-right-wrap {
+  justify-content: right;
+}
 @media (max-width: $MQMobile) {
   #app .vuepress-blog-theme-content {
     padding: 0.65rem;
@@ -70,6 +76,9 @@
   #app .ui-post {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+  }
+  #app .footer .footer-right-wrap {
+    justify-content: center;
   }
   #app .footer .footer-right-wrap .copyright .copyright-item {
     line-height: 1.5;

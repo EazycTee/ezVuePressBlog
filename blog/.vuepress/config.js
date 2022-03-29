@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Eazyc's Book",
+  title: "Eazyc's Notebook",
   description: "记录一些有意思的日常",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   theme: "@vuepress/blog",

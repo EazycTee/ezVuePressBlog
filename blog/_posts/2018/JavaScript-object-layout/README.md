@@ -5,7 +5,7 @@ author: Eazyc
 tags:
   - 程序开发
 ---
-曾经迷惑于 js 的原型链问题，后来找了一张图—— [JavaScript Object Layout](http://www.mollypages.org/tutorials/js.mp)，事情马上就变得清晰开朗啦。根据原图，好奇的水獭补充了 constructor 的指向，挪动了里面一些元素的位置，绘制出了下面的图：
+曾经迷惑于 js 的原型链问题，后来找了一张图—— [JavaScript Object Layout](http://www.mollypages.org/tutorials/js.mp)，事情马上就变得清晰开朗啦。根据原图，我补充了 constructor 的指向，挪动了里面一些元素的位置，把 `__proto__` 属性换成了 `Object.getPrototypeOf()` 方法，绘制出了下面的图：
 
 ![js-object-layout](./js-object-layout.wps.jpg)
 
