@@ -5,7 +5,7 @@ author: Eazyc
 tags:
   - 程序开发
 ---
-最近阅读 Vue.js v2.x 的教程，顺便做成思维导图：
+最近阅读 Vue.js v2.x 的教程，顺便做成思维导图（图片比较大，加载可能需要一点耐心）：
 ![Vue2.教程.过渡&动画](./vue2-guide-transitions-and-animation.png)
 
 ---
